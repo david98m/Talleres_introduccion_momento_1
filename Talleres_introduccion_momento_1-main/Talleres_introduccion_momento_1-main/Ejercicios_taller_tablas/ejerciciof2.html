@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+</head>
+<body>
+    <fieldset style="width: 30%;">
+        <legend>MIS DATOS</legend>
+        <form>
+            <label>1.Nombre:</label>
+            <input type="text" placeholder="Escriba aquí su nombre"> <br>
+            <label>2.Correo electronico:</label>
+            <input type="text" placeholder="ejemplo@dominio.com"> <br>
+            <label>3.Correo electronico:</label>
+            <input type="tel" placeholder="ej. +34984530203"> <br>
+        </form>
+
+    </fieldset>
+    <fieldset style="width: 30%;">
+        <legend>Dirección</legend>
+        <form>
+            <label>1.Dirección:</label>
+            <textarea name="Dirección"></textarea> <br>
+            <label>2.Codigo postal:</label>
+            <input type="number" placeholder="CP"> <br>
+            <label>3.Ciudad:</label>
+            <input type="text" placeholder="Ciudad">
+        </form>
+
+    </fieldset>
+    <fieldset style="width: 30%;">
+        <legend>Forma de pago</legend>
+        <form>
+            <ol style="list-style: decimal;">
+                <li>
+                    <fieldset style="width: 70%;">
+                        <legend>Tarjetas de Credito</legend>
+                        <ol style="list-style: circle;">
+                            <li>
+                                <input type="radio" value="VISA">VISA
+                            </li>
+                            <li>
+                                <input type="radio" value="American Express">American Express
+                            </li>
+                            <li>
+                                <input type="radio" value="Master Card">Master Card
+                            </li>
+
+                        </ol>
+
+                    </fieldset>
+                </li>
+                <li>
+                    <label>Número tarjeta</label>
+                    <input type="number" placeholder="Número tarjeta">
+                </li>
+                <li>
+                    <label>Código seguridad</label>
+                    <input type="number" placeholder="Código seguridad">
+                </li>
+                <li>
+                    <label>Nombre tarjeta</label>
+                    <input type="text" placeholder="Nombre exacto tarjeta">
+                </li>
+
+            </ol>
+        </form>
+    </fieldset>
+    <fieldset style="width: 30%;">
+        <button type="submit">Comprar</button>
+    </fieldset>
+</body>
+</html>
