@@ -1,0 +1,31 @@
+:root{
+    font-size: 30px; /*tamaño de letra*/
+}
+.caja-1, .caja-2, .caja-3{
+    display: inline-block;
+    width: 100px; /*ancho*/
+    height: 100px;/*alto*/
+    background-color: hsl(177, 52%, 70%); /* Color de fondo */
+}
+.caja-1{
+    width: 100px;
+    /* max-width: 80%; */
+    background-color: blue;
+    border-bottom: 10px groove red; /*borde inferior*/
+    border-top: 10px groove red; /*borde superior*/
+    border-top-left-radius: 100px; /*redondear esquinas*/
+    border-bottom-right-radius: 100px;
+    
+}
+.caja-2{
+    /* margin-top: 30px;
+    margin-bottom: 20px; */
+    /* margin: 50px 30px 100px 60px;
+    padding: 50px; */
+}
+/* .cajita{
+    font-size: 3rem;
+    width: 50%;
+    height: 50px;
+    background-color: blue;
+} */
